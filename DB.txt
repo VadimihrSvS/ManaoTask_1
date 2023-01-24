@@ -1,0 +1,8 @@
+CREATE DATABASE task_db;
+USE task_db;
+CREATE TABLE users (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    login varchar(30) NOT NULL,
+    password varchar(40) NOT NULL,
+    email varchar(30) NOT NULL,
+    name varchar(30) NOT NULL);
